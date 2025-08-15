@@ -4,10 +4,8 @@
   "description": "Professional website for Brickvests Financials - Real Estate Financial Modeling",
   "main": "index.html",
   "scripts": {
-    "start": "npx http-server . -p 3000 -o",
-    "dev": "npx live-server --port=3000 --open=/",
-    "build": "echo 'Static site - no build process needed'",
-    "deploy": "echo 'Ready for deployment to any static hosting service'"
+    "start": "python3 -m http.server 8000",
+    "dev": "python3 -m http.server 8000"
   },
   "keywords": [
     "real-estate",
