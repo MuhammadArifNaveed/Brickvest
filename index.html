@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brickvests Financials - Real Estate Financial Modeling, Reimagined</title>
+    <meta name="description" content="Professional real estate financial modeling services for investors, developers, and institutions.">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="assets/logo.svg" alt="Brickvests Financials" class="logo-img">
+                <span class="logo-text">Brickvests Financials</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#portfolio" class="nav-link">Portfolio</a>
+                <a href="#pricing" class="nav-link">Pricing</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content" data-aos="fade-up">
+                <h1 class="hero-title">Real Estate Financial Modeling, <span class="highlight">Reimagined</span></h1>
+                <p class="hero-subtitle">Empowering real estate investors, developers, and institutions with data-driven financial models for confident, profitable investment decisions.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Get Started</a>
+                    <a href="#portfolio" class="btn btn-secondary">View Portfolio</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>About Brickvests Financials</h2>
+                <p>Bridging the gap between real estate opportunities and financial transparency</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right">
+                    <h3>Who We Are</h3>
+                    <p>Brickvests Financials is a globally-focused real estate financial modeling company, providing high-quality Excel-based financial models tailored for real estate projects of all types and sizes.</p>
+                    <p>We specialize in customizable tools that make complex investment decisions simple, strategic, and scalable.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Our Services</h2>
+                <p>Comprehensive financial modeling solutions for every real estate need</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up">
+                    <div class="service-icon"><i class="fas fa-chart-bar"></i></div>
+                    <h3>Real Estate Financial Modeling</h3>
+                    <p>Custom-built financial models with IRR, ROI, NPV calculations and debt modeling.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up">
+                    <div class="service-icon"><i class="fas fa-hammer"></i></div>
+                    <h3>Feasibility & Development Analysis</h3>
+                    <p>Land acquisition to exit scenario analysis with construction cost budgeting.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up">
+                    <div class="service-icon"><i class="fas fa-users"></i></div>
+                    <h3>Fund & Syndication Models</h3>
+                    <p>Waterfall structures with preferred returns and GP/LP structures.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up">
+                    <div class="service-icon"><i class="fas fa-globe-americas"></i></div>
+                    <h3>Market-Specific Modeling</h3>
+                    <p>Localized models for Germany, UK, USA, UAE, and Pakistan.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up">
+                    <div class="service-icon"><i class="fas fa-cogs"></i></div>
+                    <h3>Custom Projects & Consulting</h3>
+                    <p>One-on-one consulting with presentation-ready dashboards.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up">
+                    <div class="service-icon"><i class="fas fa-calculator"></i></div>
+                    <h3>Interactive Calculators</h3>
+                    <p>Try our free calculators for instant investment insights.</p>
+                    <div class="calculator-buttons">
+                        <button class="btn btn-small" onclick="openCalculator('roi')">ROI Calculator</button>
+                        <button class="btn btn-small" onclick="openCalculator('irr')">IRR Calculator</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Sample Work & Portfolio</h2>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-aos="fade-up">
+                    <div class="portfolio-icon"><i class="fas fa-file-excel"></i></div>
+                    <h3>Mixed-Use Development Model</h3>
+                    <p>Comprehensive financial model for mixed-use projects.</p>
+                    <button class="btn btn-outline" onclick="downloadSample('mixed-use')">Download Sample</button>
+                </div>
+                <div class="portfolio-item" data-aos="fade-up">
+                    <div class="portfolio-icon"><i class="fas fa-chart-pie"></i></div>
+                    <h3>ROI & IRR Dashboard</h3>
+                    <p>Interactive dashboard with key investment metrics.</p>
+                    <button class="btn btn-outline" onclick="viewDashboard()">View Dashboard</button>
+                </div>
+                <div class="portfolio-item" data-aos="fade-up">
+                    <div class="portfolio-icon"><i class="fas fa-play-circle"></i></div>
+                    <h3>Model Walkthrough Video</h3>
+                    <p>Detailed walkthrough of our financial models.</p>
+                    <button class="btn btn-outline" onclick="playVideo()">Watch Video</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>What Our Clients Say</h2>
+            </div>
+            <div class="testimonials-slider" data-aos="fade-up">
+                <div class="testimonial-item active">
+                    <div class="testimonial-content">
+                        <p>"Brickvests helped us structure our first multifamily deal in Germany — the model was clear, well-structured, and extremely detailed. We raised €1.2 million confidently."</p>
+                        <div class="testimonial-author">
+                            <strong>M. Becker</strong>
+                            <span>Real Estate Investor, Germany</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <div class="testimonial-content">
+                        <p>"As a fund manager, I've worked with many analysts. Brickvests Financials is now my go-to for every syndication model."</p>
+                        <div class="testimonial-author">
+                            <strong>Zara A.</strong>
+                            <span>LP Consultant, UAE</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-nav">
+                <button class="nav-dot active" onclick="showTestimonial(0)"></button>
+                <button class="nav-dot" onclick="showTestimonial(1)"></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Our Pricing</h2>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card" data-aos="fade-up">
+                    <div class="pricing-header">
+                        <h3>Starter Model</h3>
+                        <div class="price">€99</div>
+                        <p>Ideal for small residential investments</p>
+                    </div>
+                    <div class="pricing-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Cash flow analysis</li>
+                            <li><i class="fas fa-check"></i> IRR & ROI calculations</li>
+                            <li><i class="fas fa-check"></i> Break-even analysis</li>
+                        </ul>
+                    </div>
+                    <button class="btn btn-outline">Get Started</button>
+                </div>
+                <div class="pricing-card featured" data-aos="fade-up">
+                    <div class="pricing-badge">Most Popular</div>
+                    <div class="pricing-header">
+                        <h3>Custom Financial Model</h3>
+                        <div class="price">€299+</div>
+                        <p>Full custom model for any deal size</p>
+                    </div>
+                    <div class="pricing-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Custom dashboard</li>
+                            <li><i class="fas fa-check"></i> Complete returns analysis</li>
+                            <li><i class="fas fa-check"></i> Loan structuring</li>
+                        </ul>
+                    </div>
+                    <button class="btn btn-primary">Get Started</button>
+                </div>
+                <div class="pricing-card" data-aos="fade-up">
+                    <div class="pricing-header">
+                        <h3>Fund/Syndication Model</h3>
+                        <div class="price">€499+</div>
+                        <p>LP/GP waterfall with hurdle rates</p>
+                    </div>
+                    <div class="pricing-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Waterfall structures</li>
+                            <li><i class="fas fa-check"></i> Preferred returns</li>
+                            <li><i class="fas fa-check"></i> GP/LP distributions</li>
+                        </ul>
+                    </div>
+                    <button class="btn btn-outline">Get Started</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Get Your Custom Financial Model</h2>
+                <p>Tell us about your project and we'll create a tailored financial model that meets your specific investment requirements.</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="contact-card">
+                        <h3><i class="fas fa-envelope"></i> Project Details</h3>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>info@brickvests.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>+92 300 1234567</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Head Office</h4>
+                                <p>Lahore, Pakistan<br>(Global Delivery)</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h4>Working Hours</h4>
+                                <p>Mon–Sat, 9 AM – 7 PM<br>(GMT+5)</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="why-choose-card" data-aos="fade-up" data-aos-delay="200">
+                        <h3><i class="fas fa-check-circle"></i> Why Choose Us?</h3>
+                        <ul class="benefits-list">
+                            <li><i class="fas fa-rocket"></i> Fast turnaround (3-5 business days)</li>
+                            <li><i class="fas fa-award"></i> Bank-grade professional models</li>
+                            <li><i class="fas fa-shield-alt"></i> Confidential & secure (NDA available)</li>
+                            <li><i class="fas fa-globe"></i> Global market expertise</li>
+                            <li><i class="fas fa-headset"></i> Ongoing support included</li>
+                        </ul>
+                        
+                        <div class="cta-section">
+                            <h4>Prefer to Talk?</h4>
+                            <p>Book a free 15-minute consultation call</p>
+                            <button class="btn btn-secondary" onclick="scheduleCall()">Schedule a Call</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form" data-aos="fade-left">
+                    <form id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Full Name *</label>
+                                <input type="text" id="name" name="name" placeholder="Your full name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" placeholder="your@email.com" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="company">Company (Optional)</label>
+                                <input type="text" id="company" name="company" placeholder="Your company name">
+                            </div>
+                            <div class="form-group">
+                                <label for="country">Country</label>
+                                <select id="country" name="country">
+                                    <option value="">Select your country</option>
+                                    <option value="germany">Germany</option>
+                                    <option value="uk">United Kingdom</option>
+                                    <option value="usa">United States</option>
+                                    <option value="uae">United Arab Emirates</option>
+                                    <option value="pakistan">Pakistan</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="projectType">Project Type *</label>
+                                <select id="projectType" name="projectType" required>
+                                    <option value="">Select project type</option>
+                                    <option value="residential">Residential Investment</option>
+                                    <option value="commercial">Commercial Property</option>
+                                    <option value="mixed-use">Mixed-Use Development</option>
+                                    <option value="syndication">Fund/Syndication</option>
+                                    <option value="development">Development Project</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="dealStage">Deal Stage</label>
+                                <select id="dealStage" name="dealStage">
+                                    <option value="">Select deal stage</option>
+                                    <option value="exploring">Exploring Options</option>
+                                    <option value="under-contract">Under Contract</option>
+                                    <option value="financing">Seeking Financing</option>
+                                    <option value="due-diligence">Due Diligence</option>
+                                    <option value="ready-to-close">Ready to Close</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Project Details</label>
+                            <textarea id="message" name="message" placeholder="Please describe your project, timeline, and any specific requirements..." rows="6" required></textarea>
+                        </div>
+                        
+                        <div class="form-footer">
+                            <div class="form-note">
+                                <i class="fas fa-lock"></i>
+                                <small>Your information is secure and confidential. We'll respond within 24 hours.</small>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Get My Custom Model</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section footer-brand">
+                    <div class="footer-logo">
+                        <img src="assets/logo.svg" alt="Brickvests Financials" class="logo-img">
+                        <span class="logo-text">Brickvests Financials</span>
+                    </div>
+                    <p class="footer-tagline">Real Estate Financial Modeling, Reimagined.</p>
+                    <p class="footer-description">Empowering investors with data-driven financial models for confident investment decisions across Germany, UK, USA, UAE, and Pakistan.</p>
+                    
+                    <div class="social-links">
+                        <a href="#" aria-label="LinkedIn" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#" aria-label="Twitter" class="social-link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" aria-label="Facebook" class="social-link">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="#" aria-label="YouTube" class="social-link">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Our Services</h3>
+                    <ul>
+                        <li><a href="#services"><i class="fas fa-chart-bar"></i> Real Estate Financial Modeling</a></li>
+                        <li><a href="#services"><i class="fas fa-hammer"></i> Feasibility & Development Analysis</a></li>
+                        <li><a href="#services"><i class="fas fa-users"></i> Fund & Syndication Models</a></li>
+                        <li><a href="#services"><i class="fas fa-globe-americas"></i> Market-Specific Modeling</a></li>
+                        <li><a href="#services"><i class="fas fa-cogs"></i> Custom Projects & Consulting</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#portfolio">Portfolio & Samples</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#contact">Get Quote</a></li>
+                        <li><a href="#">Blog & Resources</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Contact & Support</h3>
+                    <div class="footer-contact">
+                        <div class="contact-detail">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <strong>Email</strong>
+                                <p>info@brickvests.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-detail">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <strong>Phone</strong>
+                                <p>+92 300 1234567</p>
+                            </div>
+                        </div>
+                        <div class="contact-detail">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <strong>Location</strong>
+                                <p>Lahore, Pakistan<br><small>(Global Delivery)</small></p>
+                            </div>
+                        </div>
+                        <div class="contact-detail">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <strong>Hours</strong>
+                                <p>Mon-Sat, 9 AM - 7 PM<br><small>(GMT+5)</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <div class="footer-links">
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Service</a>
+                        <a href="#">Cookie Policy</a>
+                        <a href="#">Disclaimer</a>
+                        <a href="#">NDA Template</a>
+                    </div>
+                    <div class="footer-copyright">
+                        <p>&copy; 2025 Brickvests Financials. All Rights Reserved.</p>
+                        <p class="footer-note">Professional real estate financial modeling services worldwide.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Calculator Modal -->
+    <div id="calculatorModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeCalculator()">&times;</span>
+            <div id="calculatorContent"></div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

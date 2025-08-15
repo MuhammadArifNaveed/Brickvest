@@ -1,0 +1,36 @@
+{
+  "name": "brickvests-financials-website",
+  "version": "1.0.0",
+  "description": "Professional website for Brickvests Financials - Real Estate Financial Modeling",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server . -p 3000 -o",
+    "dev": "npx live-server --port=3000 --open=/",
+    "build": "echo 'Static site - no build process needed'",
+    "deploy": "echo 'Ready for deployment to any static hosting service'"
+  },
+  "keywords": [
+    "real-estate",
+    "financial-modeling",
+    "investment-analysis",
+    "property-valuation",
+    "syndication",
+    "irr",
+    "roi",
+    "npv"
+  ],
+  "author": "Brickvests Financials",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "live-server": "^1.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brickvests/website.git"
+  },
+  "homepage": "https://brickvests.com",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

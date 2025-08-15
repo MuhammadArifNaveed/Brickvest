@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <!-- Green roof -->
+  <polygon points="50,120 200,50 350,120 350,140 200,70 50,140" fill="#2c5530"/>
+  
+  <!-- White roof accent -->
+  <polygon points="120,90 200,60 280,90 280,100 200,70 120,100" fill="#ffffff"/>
+  
+  <!-- Left brick column -->
+  <g fill="#e76f51">
+    <rect x="60" y="140" width="50" height="15" stroke="#d65a3a" stroke-width="1"/>
+    <rect x="60" y="155" width="25" height="15" stroke="#d65a3a" stroke-width="1"/>
+    <rect x="85" y="155" width="25" height="15" stroke="#d65a3a" stroke-width="1"/>
+    <rect x="60" y="170" width="50" height="15" stroke="#d65a3a" stroke-width="1"/>
+    <rect x="60" y="185" width="25" height="15" stroke="#d65a3a" stroke-width="1"/>
+    <rect x="85" y="185" width="25" height="15" stroke="#d65a3a" stroke-width="1"/>
+    <rect x="60" y="200" width="50" height="15" stroke="#d65a3a" stroke-width="1"/>
+    <rect x="60" y="215" width="25" height="15" stroke="#d65a3a" stroke-width="1"/>
+    <rect x="85" y="215" width="25" height="15" stroke="#d65a3a" stroke-width="1"/>
+  </g>
+  
+  <!-- Right brick column -->
+  <g fill="#e76f51">
+    <rect x="290" y="140" width="50" height="15" stroke="#d65a3a" stroke-width="1"/>
+    <rect x="290" y="155" width="25" height="15" stroke="#d65a3a" stroke-width="1"/>
+    <rect x="315" y="155" width="25" height="15" stroke="#d65a3a" stroke-width="1"/>
+    <rect x="290" y="170" width="50" height="15" stroke="#d65a3a" stroke-width="1"/>
+    <rect x="290" y="185" width="25" height="15" stroke="#d65a3a" stroke-width="1"/>
+    <rect x="315" y="185" width="25" height="15" stroke="#d65a3a" stroke-width="1"/>
+    <rect x="290" y="200" width="50" height="15" stroke="#d65a3a" stroke-width="1"/>
+    <rect x="290" y="215" width="25" height="15" stroke="#d65a3a" stroke-width="1"/>
+    <rect x="315" y="215" width="25" height="15" stroke="#d65a3a" stroke-width="1"/>
+  </g>
+  
+  <!-- BRICKVESTS text (curved) -->
+  <defs>
+    <path id="curve" d="M 140 160 A 60 60 0 0 1 260 160"/>
+  </defs>
+  <text font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2c5530">
+    <textPath href="#curve" startOffset="50%" text-anchor="middle">BRICKVESTS</textPath>
+  </text>
+  
+  <!-- Dollar sign -->
+  <text x="200" y="190" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#2c5530" text-anchor="middle">$</text>
+  
+  <!-- ANALYTICS text -->
+  <text x="200" y="220" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#2c5530" text-anchor="middle">ANALYTICS</text>
+  
+  <!-- Bottom foundation -->
+  <rect x="60" y="240" width="280" height="20" fill="#2c5530"/>
+  <rect x="50" y="260" width="300" height="15" fill="#2c5530"/>
+</svg>
