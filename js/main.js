@@ -161,7 +161,7 @@ function createROICalculator() {
                 <input type="number" id="initialInvestment" placeholder="100000">
             </div>
             <div class="calc-group">
-                <label for="finalValue">Final Value (€)</label>
+                <label for="finalValue">Return (€)</label>
                 <input type="number" id="finalValue" placeholder="120000">
             </div>
             <div class="calc-group">
