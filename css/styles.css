@@ -1219,6 +1219,13 @@ p {
     margin-bottom: 1rem;
 }
 
+.footer-logo img {
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+    object-fit: contain;
+}
+
 .footer-section h3 {
     color: var(--white);
     margin-bottom: 1.5rem;
