@@ -1,73 +1,41 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 120" width="300" height="120">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 50" width="180" height="50">
   <!-- Background -->
-  <rect width="300" height="120" fill="none"/>
+  <rect width="180" height="50" fill="none"/>
   
-  <!-- Main House Structure (Green) -->
-  <g transform="translate(50, 10)">
-    <!-- House Base -->
-    <polygon points="0,80 100,80 100,40 50,0 0,40" fill="#228B22" stroke="#1e5e1e" stroke-width="2"/>
-    
-    <!-- House Peak -->
-    <polygon points="10,40 50,10 90,40" fill="#228B22"/>
-    
-    <!-- Inner Triangle -->
-    <polygon points="25,50 50,30 75,50" fill="white" stroke="#228B22" stroke-width="2"/>
+  <!-- Main House Structure -->
+  <g transform="translate(5, 8)">
+    <!-- House Roof -->
+    <polygon points="15,0 30,12 0,12" fill="#228B22"/>
+    <!-- House Body -->
+    <rect x="5" y="12" width="20" height="15" fill="#228B22"/>
+    <!-- Door -->
+    <rect x="13" y="20" width="4" height="7" fill="white"/>
+    <!-- Window -->
+    <rect x="8" y="16" width="3" height="3" fill="white"/>
+    <rect x="19" y="16" width="3" height="3" fill="white"/>
   </g>
   
-  <!-- Left Brick Columns -->
-  <g transform="translate(15, 35)">
-    <!-- Column 1 -->
-    <rect x="0" y="0" width="12" height="6" fill="#FF6B35" stroke="#e55a2b" stroke-width="1"/>
-    <rect x="0" y="7" width="12" height="6" fill="#FF6B35" stroke="#e55a2b" stroke-width="1"/>
-    <rect x="0" y="14" width="12" height="6" fill="#FF6B35" stroke="#e55a2b" stroke-width="1"/>
-    <rect x="0" y="21" width="12" height="6" fill="#FF6B35" stroke="#e55a2b" stroke-width="1"/>
-    <rect x="0" y="28" width="12" height="6" fill="#FF6B35" stroke="#e55a2b" stroke-width="1"/>
-    <rect x="0" y="35" width="12" height="6" fill="#FF6B35" stroke="#e55a2b" stroke-width="1"/>
-    
-    <!-- Column 2 -->
-    <rect x="15" y="0" width="12" height="6" fill="#FF6B35" stroke="#e55a2b" stroke-width="1"/>
-    <rect x="15" y="7" width="12" height="6" fill="#FF6B35" stroke="#e55a2b" stroke-width="1"/>
-    <rect x="15" y="14" width="12" height="6" fill="#FF6B35" stroke="#e55a2b" stroke-width="1"/>
-    <rect x="15" y="21" width="12" height="6" fill="#FF6B35" stroke="#e55a2b" stroke-width="1"/>
-    <rect x="15" y="28" width="12" height="6" fill="#FF6B35" stroke="#e55a2b" stroke-width="1"/>
-    <rect x="15" y="35" width="12" height="6" fill="#FF6B35" stroke="#e55a2b" stroke-width="1"/>
+  <!-- Left Bricks -->
+  <g transform="translate(32, 15)">
+    <rect x="0" y="0" width="8" height="4" fill="#FF6B35" stroke="#e55a2b" stroke-width="0.5"/>
+    <rect x="0" y="5" width="8" height="4" fill="#FF6B35" stroke="#e55a2b" stroke-width="0.5"/>
+    <rect x="0" y="10" width="8" height="4" fill="#FF6B35" stroke="#e55a2b" stroke-width="0.5"/>
   </g>
   
-  <!-- Right Brick Columns -->
-  <g transform="translate(173, 35)">
-    <!-- Column 1 -->
-    <rect x="0" y="0" width="12" height="6" fill="#FF6B35" stroke="#e55a2b" stroke-width="1"/>
-    <rect x="0" y="7" width="12" height="6" fill="#FF6B35" stroke="#e55a2b" stroke-width="1"/>
-    <rect x="0" y="14" width="12" height="6" fill="#FF6B35" stroke="#e55a2b" stroke-width="1"/>
-    <rect x="0" y="21" width="12" height="6" fill="#FF6B35" stroke="#e55a2b" stroke-width="1"/>
-    <rect x="0" y="28" width="12" height="6" fill="#FF6B35" stroke="#e55a2b" stroke-width="1"/>
-    <rect x="0" y="35" width="12" height="6" fill="#FF6B35" stroke="#e55a2b" stroke-width="1"/>
-    
-    <!-- Column 2 -->
-    <rect x="15" y="0" width="12" height="6" fill="#FF6B35" stroke="#e55a2b" stroke-width="1"/>
-    <rect x="15" y="7" width="12" height="6" fill="#FF6B35" stroke="#e55a2b" stroke-width="1"/>
-    <rect x="15" y="14" width="12" height="6" fill="#FF6B35" stroke="#e55a2b" stroke-width="1"/>
-    <rect x="15" y="21" width="12" height="6" fill="#FF6B35" stroke="#e55a2b" stroke-width="1"/>
-    <rect x="15" y="28" width="12" height="6" fill="#FF6B35" stroke="#e55a2b" stroke-width="1"/>
-    <rect x="15" y="35" width="12" height="6" fill="#FF6B35" stroke="#e55a2b" stroke-width="1"/>
+  <!-- Dollar Sign -->
+  <g transform="translate(45, 18)">
+    <circle cx="8" cy="8" r="10" fill="#228B22"/>
+    <text x="8" y="13" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">$</text>
   </g>
   
-  <!-- Central Dollar Sign -->
-  <g transform="translate(135, 45)">
-    <circle cx="15" cy="15" r="18" fill="#228B22" stroke="#1e5e1e" stroke-width="2"/>
-    <text x="15" y="25" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white" text-anchor="middle">$</text>
+  <!-- Right Bricks -->
+  <g transform="translate(65, 15)">
+    <rect x="0" y="0" width="8" height="4" fill="#FF6B35" stroke="#e55a2b" stroke-width="0.5"/>
+    <rect x="0" y="5" width="8" height="4" fill="#FF6B35" stroke="#e55a2b" stroke-width="0.5"/>
+    <rect x="0" y="10" width="8" height="4" fill="#FF6B35" stroke="#e55a2b" stroke-width="0.5"/>
   </g>
   
-  <!-- BRICKVESTS Text (Curved) -->
-  <g transform="translate(75, 25)">
-    <path id="curve" d="M -50,0 Q 0,-15 50,0" fill="none"/>
-    <text font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#228B22">
-      <textPath href="#curve" startOffset="50%" text-anchor="middle">BRICKVESTS</textPath>
-    </text>
-  </g>
-  <text x="200" y="220" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#2c5530" text-anchor="middle">ANALYTICS</text>
-  
-  <!-- Bottom foundation -->
-  <rect x="60" y="240" width="280" height="20" fill="#2c5530"/>
-  <rect x="50" y="260" width="300" height="15" fill="#2c5530"/>
+  <!-- Company Text -->
+  <text x="85" y="20" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#228B22">BRICKVESTS</text>
+  <text x="85" y="35" font-family="Arial, sans-serif" font-size="9" font-weight="600" fill="#228B22">ANALYTICS</text>
 </svg>
