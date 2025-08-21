@@ -1,41 +1,82 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 50" width="180" height="50">
-  <!-- Background -->
-  <rect width="180" height="50" fill="none"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="1000" height="1000">
+  <!-- Main Green House/Roof Structure -->
+  <polygon points="70,400 500,120 930,400 930,700 70,700" fill="#228B22" stroke="#1e7e1e" stroke-width="4"/>
   
-  <!-- Main House Structure -->
-  <g transform="translate(5, 8)">
-    <!-- House Roof -->
-    <polygon points="15,0 30,12 0,12" fill="#228B22"/>
-    <!-- House Body -->
-    <rect x="5" y="12" width="20" height="15" fill="#228B22"/>
-    <!-- Door -->
-    <rect x="13" y="20" width="4" height="7" fill="white"/>
-    <!-- Window -->
-    <rect x="8" y="16" width="3" height="3" fill="white"/>
-    <rect x="19" y="16" width="3" height="3" fill="white"/>
+  <!-- White Inner Triangle -->
+  <polygon points="300,500 500,360 700,500" fill="white" stroke="#228B22" stroke-width="4"/>
+  
+  <!-- Left Brick Columns -->
+  <g transform="translate(140, 430)">
+    <!-- Top Row -->
+    <rect x="0" y="0" width="50" height="25" fill="#FF6B35" stroke="#e55a2b" stroke-width="2"/>
+    <rect x="55" y="0" width="50" height="25" fill="#FF6B35" stroke="#e55a2b" stroke-width="2"/>
+    <rect x="110" y="0" width="50" height="25" fill="#FF6B35" stroke="#e55a2b" stroke-width="2"/>
+    
+    <!-- Second Row -->
+    <rect x="0" y="30" width="50" height="25" fill="#FF6B35" stroke="#e55a2b" stroke-width="2"/>
+    <rect x="55" y="30" width="50" height="25" fill="#FF6B35" stroke="#e55a2b" stroke-width="2"/>
+    <rect x="110" y="30" width="50" height="25" fill="#FF6B35" stroke="#e55a2b" stroke-width="2"/>
+    
+    <!-- Third Row -->
+    <rect x="0" y="60" width="50" height="25" fill="#FF6B35" stroke="#e55a2b" stroke-width="2"/>
+    <rect x="55" y="60" width="50" height="25" fill="#FF6B35" stroke="#e55a2b" stroke-width="2"/>
+    <rect x="110" y="60" width="50" height="25" fill="#FF6B35" stroke="#e55a2b" stroke-width="2"/>
+    
+    <!-- Fourth Row -->
+    <rect x="0" y="90" width="50" height="25" fill="#FF6B35" stroke="#e55a2b" stroke-width="2"/>
+    <rect x="55" y="90" width="50" height="25" fill="#FF6B35" stroke="#e55a2b" stroke-width="2"/>
+    <rect x="110" y="90" width="50" height="25" fill="#FF6B35" stroke="#e55a2b" stroke-width="2"/>
+    
+    <!-- Fifth Row -->
+    <rect x="0" y="120" width="50" height="25" fill="#FF6B35" stroke="#e55a2b" stroke-width="2"/>
+    <rect x="55" y="120" width="50" height="25" fill="#FF6B35" stroke="#e55a2b" stroke-width="2"/>
+    <rect x="110" y="120" width="50" height="25" fill="#FF6B35" stroke="#e55a2b" stroke-width="2"/>
   </g>
   
-  <!-- Left Bricks -->
-  <g transform="translate(32, 15)">
-    <rect x="0" y="0" width="8" height="4" fill="#FF6B35" stroke="#e55a2b" stroke-width="0.5"/>
-    <rect x="0" y="5" width="8" height="4" fill="#FF6B35" stroke="#e55a2b" stroke-width="0.5"/>
-    <rect x="0" y="10" width="8" height="4" fill="#FF6B35" stroke="#e55a2b" stroke-width="0.5"/>
+  <!-- Right Brick Columns -->
+  <g transform="translate(640, 430)">
+    <!-- Top Row -->
+    <rect x="0" y="0" width="50" height="25" fill="#FF6B35" stroke="#e55a2b" stroke-width="2"/>
+    <rect x="55" y="0" width="50" height="25" fill="#FF6B35" stroke="#e55a2b" stroke-width="2"/>
+    <rect x="110" y="0" width="50" height="25" fill="#FF6B35" stroke="#e55a2b" stroke-width="2"/>
+    
+    <!-- Second Row -->
+    <rect x="0" y="30" width="50" height="25" fill="#FF6B35" stroke="#e55a2b" stroke-width="2"/>
+    <rect x="55" y="30" width="50" height="25" fill="#FF6B35" stroke="#e55a2b" stroke-width="2"/>
+    <rect x="110" y="30" width="50" height="25" fill="#FF6B35" stroke="#e55a2b" stroke-width="2"/>
+    
+    <!-- Third Row -->
+    <rect x="0" y="60" width="50" height="25" fill="#FF6B35" stroke="#e55a2b" stroke-width="2"/>
+    <rect x="55" y="60" width="50" height="25" fill="#FF6B35" stroke="#e55a2b" stroke-width="2"/>
+    <rect x="110" y="60" width="50" height="25" fill="#FF6B35" stroke="#e55a2b" stroke-width="2"/>
+    
+    <!-- Fourth Row -->
+    <rect x="0" y="90" width="50" height="25" fill="#FF6B35" stroke="#e55a2b" stroke-width="2"/>
+    <rect x="55" y="90" width="50" height="25" fill="#FF6B35" stroke="#e55a2b" stroke-width="2"/>
+    <rect x="110" y="90" width="50" height="25" fill="#FF6B35" stroke="#e55a2b" stroke-width="2"/>
+    
+    <!-- Fifth Row -->
+    <rect x="0" y="120" width="50" height="25" fill="#FF6B35" stroke="#e55a2b" stroke-width="2"/>
+    <rect x="55" y="120" width="50" height="25" fill="#FF6B35" stroke="#e55a2b" stroke-width="2"/>
+    <rect x="110" y="120" width="50" height="25" fill="#FF6B35" stroke="#e55a2b" stroke-width="2"/>
   </g>
   
-  <!-- Dollar Sign -->
-  <g transform="translate(45, 18)">
-    <circle cx="8" cy="8" r="10" fill="#228B22"/>
-    <text x="8" y="13" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">$</text>
+  <!-- Central Dollar Sign -->
+  <circle cx="500" cy="640" r="70" fill="#228B22" stroke="#1e7e1e" stroke-width="4"/>
+  <text x="500" y="680" font-family="Arial, sans-serif" font-size="96" font-weight="bold" fill="white" text-anchor="middle">$</text>
+  
+  <!-- BRICKVESTS Text (Curved) -->
+  <g transform="translate(500, 560)">
+    <path id="curve" d="M -240,0 Q 0,-60 240,0" fill="none"/>
+    <text font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#228B22">
+      <textPath href="#curve" startOffset="50%" text-anchor="middle">BRICKVESTS</textPath>
+    </text>
   </g>
   
-  <!-- Right Bricks -->
-  <g transform="translate(65, 15)">
-    <rect x="0" y="0" width="8" height="4" fill="#FF6B35" stroke="#e55a2b" stroke-width="0.5"/>
-    <rect x="0" y="5" width="8" height="4" fill="#FF6B35" stroke="#e55a2b" stroke-width="0.5"/>
-    <rect x="0" y="10" width="8" height="4" fill="#FF6B35" stroke="#e55a2b" stroke-width="0.5"/>
-  </g>
+  <!-- ANALYTICS Text -->
+  <text x="500" y="840" font-family="Arial, sans-serif" font-size="80" font-weight="bold" fill="#228B22" text-anchor="middle">ANALYTICS</text>
   
-  <!-- Company Text -->
-  <text x="85" y="20" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#228B22">BRICKVESTS</text>
-  <text x="85" y="35" font-family="Arial, sans-serif" font-size="9" font-weight="600" fill="#228B22">ANALYTICS</text>
+  <!-- Bottom Foundation -->
+  <rect x="70" y="900" width="860" height="50" fill="#228B22"/>
+  <rect x="40" y="950" width="920" height="40" fill="#228B22"/>
 </svg>
