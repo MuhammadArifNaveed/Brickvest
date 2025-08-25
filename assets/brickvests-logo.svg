@@ -1,0 +1,133 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Green roof/house structure -->
+  <polygon points="100,20 40,80 160,80" fill="#228B22" stroke="none"/>
+  <polygon points="100,40 60,70 140,70" fill="white" stroke="none"/>
+  <polygon points="100,50 80,65 120,65" fill="#228B22" stroke="none"/>
+  
+  <!-- Orange brick walls on left -->
+  <g fill="#FF7F50">
+    <!-- Left wall bricks -->
+    <rect x="30" y="85" width="15" height="8"/>
+    <rect x="45" y="85" width="15" height="8"/>
+    <rect x="60" y="85" width="15" height="8"/>
+    
+    <rect x="30" y="95" width="12" height="8"/>
+    <rect x="42" y="95" width="12" height="8"/>
+    <rect x="54" y="95" width="12" height="8"/>
+    <rect x="66" y="95" width="9" height="8"/>
+    
+    <rect x="30" y="105" width="15" height="8"/>
+    <rect x="45" y="105" width="15" height="8"/>
+    <rect x="60" y="105" width="15" height="8"/>
+    
+    <rect x="30" y="115" width="12" height="8"/>
+    <rect x="42" y="115" width="12" height="8"/>
+    <rect x="54" y="115" width="12" height="8"/>
+    <rect x="66" y="115" width="9" height="8"/>
+    
+    <rect x="30" y="125" width="15" height="8"/>
+    <rect x="45" y="125" width="15" height="8"/>
+    <rect x="60" y="125" width="15" height="8"/>
+    
+    <rect x="30" y="135" width="12" height="8"/>
+    <rect x="42" y="135" width="12" height="8"/>
+    <rect x="54" y="135" width="12" height="8"/>
+    <rect x="66" y="135" width="9" height="8"/>
+  </g>
+  
+  <!-- Orange brick walls on right -->
+  <g fill="#FF7F50">
+    <!-- Right wall bricks -->
+    <rect x="125" y="85" width="15" height="8"/>
+    <rect x="140" y="85" width="15" height="8"/>
+    <rect x="155" y="85" width="15" height="8"/>
+    
+    <rect x="125" y="95" width="12" height="8"/>
+    <rect x="137" y="95" width="12" height="8"/>
+    <rect x="149" y="95" width="12" height="8"/>
+    <rect x="161" y="95" width="9" height="8"/>
+    
+    <rect x="125" y="105" width="15" height="8"/>
+    <rect x="140" y="105" width="15" height="8"/>
+    <rect x="155" y="105" width="15" height="8"/>
+    
+    <rect x="125" y="115" width="12" height="8"/>
+    <rect x="137" y="115" width="12" height="8"/>
+    <rect x="149" y="115" width="12" height="8"/>
+    <rect x="161" y="115" width="9" height="8"/>
+    
+    <rect x="125" y="125" width="15" height="8"/>
+    <rect x="140" y="125" width="15" height="8"/>
+    <rect x="155" y="125" width="15" height="8"/>
+    
+    <rect x="125" y="135" width="12" height="8"/>
+    <rect x="137" y="135" width="12" height="8"/>
+    <rect x="149" y="135" width="12" height="8"/>
+    <rect x="161" y="135" width="9" height="8"/>
+  </g>
+  
+  <!-- BRICKVESTS text (curved) -->
+  <path id="curve-top" d="M 50 90 Q 100 70 150 90" fill="none"/>
+  <text fill="#228B22" font-family="Arial, sans-serif" font-size="14" font-weight="bold">
+    <textPath href="#curve-top" startOffset="50%" text-anchor="middle">BRICKVESTS</textPath>
+  </text>
+  
+  <!-- Dollar sign -->
+  <text x="100" y="120" fill="#228B22" font-family="Arial, sans-serif" font-size="36" font-weight="bold" text-anchor="middle">$</text>
+  
+  <!-- ANALYTICS text -->
+  <text x="100" y="165" fill="#228B22" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle">ANALYTICS</text>
+  
+  <!-- Green foundation/base -->
+  <rect x="20" y="170" width="160" height="15" fill="#228B22"/>
+  <rect x="15" y="180" width="170" height="10" fill="#228B22"/>
+  
+  <!-- Brick outlines for definition -->
+  <g stroke="#D2691E" stroke-width="0.5" fill="none">
+    <!-- Left wall brick outlines -->
+    <rect x="30" y="85" width="15" height="8"/>
+    <rect x="45" y="85" width="15" height="8"/>
+    <rect x="60" y="85" width="15" height="8"/>
+    <rect x="30" y="95" width="12" height="8"/>
+    <rect x="42" y="95" width="12" height="8"/>
+    <rect x="54" y="95" width="12" height="8"/>
+    <rect x="66" y="95" width="9" height="8"/>
+    <rect x="30" y="105" width="15" height="8"/>
+    <rect x="45" y="105" width="15" height="8"/>
+    <rect x="60" y="105" width="15" height="8"/>
+    <rect x="30" y="115" width="12" height="8"/>
+    <rect x="42" y="115" width="12" height="8"/>
+    <rect x="54" y="115" width="12" height="8"/>
+    <rect x="66" y="115" width="9" height="8"/>
+    <rect x="30" y="125" width="15" height="8"/>
+    <rect x="45" y="125" width="15" height="8"/>
+    <rect x="60" y="125" width="15" height="8"/>
+    <rect x="30" y="135" width="12" height="8"/>
+    <rect x="42" y="135" width="12" height="8"/>
+    <rect x="54" y="135" width="12" height="8"/>
+    <rect x="66" y="135" width="9" height="8"/>
+    
+    <!-- Right wall brick outlines -->
+    <rect x="125" y="85" width="15" height="8"/>
+    <rect x="140" y="85" width="15" height="8"/>
+    <rect x="155" y="85" width="15" height="8"/>
+    <rect x="125" y="95" width="12" height="8"/>
+    <rect x="137" y="95" width="12" height="8"/>
+    <rect x="149" y="95" width="12" height="8"/>
+    <rect x="161" y="95" width="9" height="8"/>
+    <rect x="125" y="105" width="15" height="8"/>
+    <rect x="140" y="105" width="15" height="8"/>
+    <rect x="155" y="105" width="15" height="8"/>
+    <rect x="125" y="115" width="12" height="8"/>
+    <rect x="137" y="115" width="12" height="8"/>
+    <rect x="149" y="115" width="12" height="8"/>
+    <rect x="161" y="115" width="9" height="8"/>
+    <rect x="125" y="125" width="15" height="8"/>
+    <rect x="140" y="125" width="15" height="8"/>
+    <rect x="155" y="125" width="15" height="8"/>
+    <rect x="125" y="135" width="12" height="8"/>
+    <rect x="137" y="135" width="12" height="8"/>
+    <rect x="149" y="135" width="12" height="8"/>
+    <rect x="161" y="135" width="9" height="8"/>
+  </g>
+</svg>

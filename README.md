@@ -14,7 +14,7 @@ Brickvests Analytics is a globally focused real estate financial modeling compan
 - **Contact Form**: Functional contact form with validation and project details
 - **Smooth Animations**: AOS (Animate On Scroll) library for smooth page transitions
 - **Modern UI/UX**: Clean, professional design with excellent user experience
-- **Custom Logo**: Professional Brickvests Analytics logo with house, bricks, and dollar sign design
+- **Custom Logo**: Professional Brickvests Analytics logo with house, bricks, and dollar sign design (Updated Aug 25, 2025)
 - **SEO Optimized**: Proper meta tags, semantic HTML, and fast loading
 - **Deployment Ready**: Configured for Vercel with automatic CI/CD pipeline
 
@@ -92,6 +92,20 @@ npm run dev
 ```
 
 This will start a local server at `http://localhost:3000`
+
+## 📋 Recent Updates & Changelog
+
+### Version 1.1 - August 25, 2025
+- **UI Improvements**: Removed all social media account links from footer
+- **Logo Update**: Implemented new Brickvests Analytics branded logo
+- **Testing**: Comprehensive local testing completed on Ruby server
+- **Deployment**: Ready for production deployment via Vercel CI/CD
+
+### Version 1.0 - August 2025
+- **Initial Release**: Complete website with all core features
+- **Responsive Design**: Mobile-first approach with full responsiveness
+- **Interactive Features**: ROI/IRR calculators and contact forms
+- **Professional Branding**: Custom Brickvests Analytics design
 
 ## 📱 Responsive Breakpoints
 
