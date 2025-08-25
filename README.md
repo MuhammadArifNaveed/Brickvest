@@ -1,34 +1,39 @@
-# Brickvests Financials Website
+# Brickvests Analytics Website
 
-A professional, interactive website for Brickvests Financials - Real Estate Financial Modeling, Reimagined.
+A professional, interactive website for Brickvests Analytics - Real Estate Financial Modeling, Reimagined.
 
 ## 🏢 About
 
-Brickvests Financials is a globally-focused real estate financial modeling company, providing high-quality Excel-based financial models tailored for real estate projects of all types and sizes.
+Brickvests Analytics is a globally focused real estate financial modeling company, providing high quality Excel-based financial models tailored for real estate projects of all types and sizes. We serve investors, developers, institutions, brokers, fund managers, consultants, and banks worldwide.
 
 ## 🚀 Features
 
 - **Responsive Design**: Works perfectly on desktop, tablet, and mobile devices
 - **Interactive Calculators**: ROI and IRR calculators for instant investment insights
-- **Professional Sections**: Home, About, Services, Portfolio, Testimonials, Pricing, Contact
-- **Contact Form**: Functional contact form with validation
+- **Professional Sections**: Home, About, Services, Why Choose Us, Who We Serve, Portfolio, Testimonials, Pricing, Contact
+- **Contact Form**: Functional contact form with validation and project details
 - **Smooth Animations**: AOS (Animate On Scroll) library for smooth page transitions
 - **Modern UI/UX**: Clean, professional design with excellent user experience
+- **Custom Logo**: Professional Brickvests Analytics logo with house, bricks, and dollar sign design
 - **SEO Optimized**: Proper meta tags, semantic HTML, and fast loading
+- **Deployment Ready**: Configured for Vercel with automatic CI/CD pipeline
 
 ## 📁 Project Structure
 
 ```
-brickvests-website/
-├── index.html              # Main HTML file
+brickvests-analytics-website/
+├── index.html              # Main HTML file with all sections
 ├── css/
-│   └── styles.css          # Main stylesheet
+│   └── styles.css          # Complete stylesheet with responsive design
 ├── js/
-│   └── main.js            # JavaScript functionality
-├── assets/                # Images and media files
+│   └── main.js            # Interactive functionality and calculators
+├── assets/
+│   └── logo.svg           # Custom Brickvests Analytics logo
+├── vercel.json            # Vercel deployment configuration
 ├── package.json           # Project configuration
-├── PROJECT_PLAN.md        # Detailed project plan
-└── README.md             # This file
+├── PROJECT_PLAN.md        # Detailed project plan and progress
+├── DEPLOYMENT_GUIDE.md    # Deployment instructions
+└── README.md             # This documentation
 ```
 
 ## 🛠️ Technologies Used
@@ -39,6 +44,24 @@ brickvests-website/
 - **Font Awesome**: Professional icons
 - **Google Fonts**: Inter font family for modern typography
 - **AOS Library**: Smooth scroll animations
+- **Vercel**: Hosting and deployment platform
+- **GitHub**: Version control and CI/CD integration
+
+## 💰 Current Pricing Structure
+
+- **Basic Financial Model**: $250
+- **Standard Dynamic Financial Model**: $600
+- **Foreclosure / Distressed Property Investment Model**: $600
+- **Fund / Syndication Model**: $1200
+
+## 🌐 Live Website
+
+**Production URL**: [https://brickvests.com](https://brickvests.com)
+
+- **Hosting**: Vercel
+- **Domain**: Custom domain (brickvests.com)
+- **Deployment**: Automatic CI/CD from GitHub main branch
+- **SSL**: Enabled with automatic certificate management
 
 ## 🚀 Getting Started
 
@@ -177,11 +200,37 @@ This project is licensed under the MIT License - see the package.json file for d
 4. Test thoroughly
 5. Submit a pull request
 
-## 📞 Support
+## 📞 Contact & Support
 
-For technical support or questions about the website, contact:
-- Email: info@brickvests.com
-- Website: www.brickvests.com
+For business inquiries and technical support:
+- **Email**: info@brickvests.com
+- **Phone**: 00923216271646
+- **Website**: [https://brickvests.com](https://brickvests.com)
+- **Location**: Will be updated later
+
+## 🎯 Business Focus
+
+**Target Audience**: Real estate investors, developers, institutions, brokers, fund managers, consultants, and banks worldwide.
+
+**Services**:
+- Real Estate Financial Modeling
+- Feasibility & Development Analysis
+- Fund & Syndication Models
+- Market Specific Modeling
+- Custom Projects & Consulting
+
+## 📊 Website Sections
+
+1. **Hero Section**: Main value proposition with call-to-action
+2. **About Us**: Company overview and expertise
+3. **Services**: Detailed service offerings
+4. **Why Choose Us**: Key differentiators and benefits
+5. **Who We Serve**: Target audience and use cases
+6. **Portfolio & Samples**: Work examples and downloadable samples
+7. **Testimonials**: Client feedback and success stories
+8. **Pricing**: Current pricing structure for all services
+9. **Contact**: Contact form with project details and company information
+10. **Footer**: Additional links, contact info, and social media
 
 ---
 
